@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Register from "./components/Register.jsx";
-import Dashboard from "./components/dashboard.jsx";
+import Dashboard from "./components/Dashboard.jsx";
 
 function App() {
   return (
