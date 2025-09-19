@@ -9,7 +9,6 @@ const useBirthDayCountdown = (dob, timezone) => {
     seconds: 0,
   });
 
-  console.log("I am working");
   useEffect(() => {
     if (!dob || !timezone) return;
 
