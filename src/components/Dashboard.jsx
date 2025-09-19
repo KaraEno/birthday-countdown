@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useBirthDayCountdown from "../hooks/useBirthDayCountdown.js";
+import useBirthDayCountdown from "../hooks/useBirthdayCountdown.js";
 
 const Dashboard = () => {
   const [user, setUser] = useState({});
