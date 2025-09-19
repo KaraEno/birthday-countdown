@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Register from "./components/Register";
-import Dashboard from "./components/dashboard";
+import Register from "./components/Register.jsx";
+import Dashboard from "./components/dashboard.jsx";
 
 function App() {
   return (
