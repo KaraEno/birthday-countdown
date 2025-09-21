@@ -33,7 +33,7 @@ const Dashboard = () => {
               I hope you are pumped for your birthday coming up in
             </p>
             {days || hours || minutes || seconds ? (
-              <p className="text-[30px] sm:text-[150px] font-bold">
+              <p className="text-[30px] sm:text-[130px] font-bold">
                 {days}d : {hours}h : {minutes}m : {seconds}s
               </p>
             ) : (
